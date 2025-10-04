@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "stock_predict"
+version = "0.1.0"
+description = ""
+authors = ["Shrey Sinha <thesinhas.ss@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.0"
+uvicorn = "^0.30.0"
+pandas = "^2.0.3"
+requests = "^2.31.0"
+google-generativeai = "^0.8.0"
+python-dotenv = "^1.0.0"
+yfinance = "^0.2.36"
+networkx = "^3.3"
+rapidfuzz = "^3.6.2"
+langgraph = "^0.0.38"
+
+[[tool.poetry.packages]]
+include = "app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
