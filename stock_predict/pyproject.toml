@@ -5,7 +5,7 @@ description = ""
 authors = ["Shrey Sinha <thesinhas.ss@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.13"
 fastapi = "^0.111.0"
 uvicorn = "^0.30.0"
 pandas = "^2.0.3"
